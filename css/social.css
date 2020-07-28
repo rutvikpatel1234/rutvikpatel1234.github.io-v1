@@ -1,13 +1,11 @@
-body {
-  background-color: #ddd;
-  padding: 100px 20px 20px 20px;
-}
+
 
 .social-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -10px;
+  align-items: center;
 }
 .social-buttons__button {
   margin: 10px 5px 0;
@@ -126,3 +124,5 @@ body {
 .social-button--npmjs::after {
   background: #c12127;
 }
+
+

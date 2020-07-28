@@ -1,1 +1,42 @@
-/* your styles go here */
+your styles go here
+a.resume-btn{
+    background:none;
+    display:inline-block;
+    color: #ddd;
+    border: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.animated.bounceIn{
+    animation-duration: .50s;
+}
+.bounceIn{
+    visibility: visible;
+    animation-name: bounceIn;
+}
+a.resume-btn:hover,
+a.resume-btn:active {
+    /*background-position: -100% 100%;*/
+    color: #fff;
+    /*font-weight: 400;*/
+    border: 2px solid #fff;
+    background-color: rgba(254, 254, 254, 0.2);
+    padding: 10px 30px;
+}
+
+/* #dev-ul li{
+  display: inline;
+} */
+
+li.dev-item{
+  text-align: center;
+  background-color: transparent;
+  height: 100px;
+  -webkit-border-radiuss:50%;
+  width:100px;
+  line-height: 6;
+  margin: 1%;
+  display: inline-flex;
+}
