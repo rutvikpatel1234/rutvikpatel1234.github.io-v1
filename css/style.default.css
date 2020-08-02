@@ -76,6 +76,10 @@ section {
 .bg-gradient * {
   color: inherit;
 }
+span.fa.fa-bars {
+  color:rgb(100, 255, 218);
+}
+
 
 .bg-gray {
   background: #f5f5f5;
